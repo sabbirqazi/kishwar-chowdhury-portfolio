@@ -103,7 +103,7 @@ p {
     font-size: 18px;
     border-radius: 15px;
     border: 1px solid rgba(255 , 255 , 255, 0.3);
-    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 15px silver;
 
 }
 input[type=text]{
@@ -126,6 +126,29 @@ input[type=submit]{
     background-color: rgba(250, 100, 0, 0.8);
     cursor: pointer;
 }
+/* customer review section */
+.customer-review{
+    margin-top: 40px;
+    display: flex;
+}
+.customer-img{
+    width: 25%;
+    padding: 7px;
+    height: 25%;
+}
+.customer{
+    text-align: center;
+    width: 20%;
+    padding: auto;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 50px silver;
+    max-width: 200px;
+}
+#customer-id{
+    text-align: center;
+    justify-content: center;
+}
 /* social media section */
 .social-media{
     display: flex;
@@ -135,7 +158,7 @@ input[type=submit]{
     background-color: steelblue;
     width: 100%;
     border-radius: 25px;
-    box-shadow: 5px 5px 50px 5px #fffafa;
+    box-shadow: 0px 0px 50px #fffafa;
 }
 .media{
     width: 30%;
@@ -143,7 +166,15 @@ input[type=submit]{
     padding: 20px;
 }
 .img-svg{
-    width: 10%;
-    padding: 10px;
-    height: 10%;
+    width: 20%;
+    padding: 5px;
+    height: 20%;
+}
+footer{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    margin: 5px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
 }
